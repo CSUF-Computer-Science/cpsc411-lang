@@ -49,6 +49,7 @@ public abstract class Encryption
 
         SimpleEncryption obfuscate = new SimpleEncryption(inFileName, outFileName);
         obfuscate.encrypt();
+        obfuscate.close();
     }
     
 };
